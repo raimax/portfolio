@@ -1,0 +1,23 @@
+.link_button {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	background: $primary;
+	font-weight: 500;
+	transition: all 0.3s ease;
+
+	>svg {
+		margin-left: 10px;
+		transition: all 0.3s ease;
+	}
+
+	&:hover {
+		background: darken($primary, 5%);
+		transition: all 0.3s ease;
+
+		>svg {
+			transition: all 0.3s ease;
+			transform: translateY(-3px);
+		}
+	}
+}

@@ -1,0 +1,14 @@
+.badge_list {
+	display: flex;
+
+	>*:not(:last-child) {
+		margin-right: 10px;
+	}
+}
+
+.badge {
+	padding: 5px;
+	color: $light-shade;
+	background: $dark-shade;
+	font-size: 0.9em;
+}
